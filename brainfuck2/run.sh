@@ -44,6 +44,8 @@ echo OCaml
 ../xtime.rb ./bin_ocaml bench.b
 echo Ruby Topaz
 ../xtime.rb topaz bf.rb bench.b
+echo PHP
+../xtime.rb php bf.php bench.b
 echo Python PyPy
 ../xtime.rb pypy bf.py bench.b
 echo Perl
